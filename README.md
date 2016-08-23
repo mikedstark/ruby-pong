@@ -1,5 +1,5 @@
 # ruby-pong
-Ruby 2P version of the classic arcade game.
+Ruby 2P version of the classic arcade game using GOSU.
 
 #To play:
 
@@ -13,3 +13,5 @@ ruby pong.rb
 
 Left side: use 'w' and 's'
 Right side: use 'i' and 'k'
+
+'Esc' to close.
