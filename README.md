@@ -1,5 +1,6 @@
 # ruby-pong
 Ruby 2P version of the classic arcade game using GOSU.
+No score cap. Play endlessly for now.
 
 #To play:
 
