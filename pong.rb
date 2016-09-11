@@ -94,7 +94,7 @@ class Pong < Gosu::Window
 		end
 
 		#paddle 2 going up
-		if button_down?(Gosu::KbS)
+		if button_down?(Gosu::KbF)
 			if @y2 > 0	
 				@y2 -= 5
 			end
