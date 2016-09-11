@@ -11,8 +11,9 @@ ruby pong.rb
 ------------------------------
 
 #Controls:
+Designed to be used with my arcade controller
 
-Left side: use 'w' and 's'
-Right side: use 'i' and 'k'
+Left side: use 'upArrow' and 'downArrow'
+Right side: use 'f' and 'v'
 
 'Esc' to close.
