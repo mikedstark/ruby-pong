@@ -73,28 +73,28 @@ class Pong < Gosu::Window
 		end
 
 		#paddle 1 going down
-		if button_down?(Gosu::KbS)
+		if button_down?(Gosu::KbDown)
 			if @y < self.height - @paddle_length
 				@y += 5
 			end
 		end
 		
 		#paddle 1 going up
-		if button_down?(Gosu::KbW)
+		if button_down?(Gosu::KbUp)
 			if @y > 0
 				@y -= 5
 			end
 		end
 
 		#paddle 2 going down
-		if button_down?(Gosu::KbK)
+		if button_down?(Gosu::KbF)
 			if @y2 < self.height - @paddle_length
 				@y2 += 5
 			end
 		end
 
 		#paddle 2 going up
-		if button_down?(Gosu::KbI)
+		if button_down?(Gosu::KbV)
 			if @y2 > 0	
 				@y2 -= 5
 			end
